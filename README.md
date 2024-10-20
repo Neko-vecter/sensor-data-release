@@ -15,7 +15,7 @@ Add config below in `printer.cfg`
 [include sensor-data/*.cfg]
 ```
 
-The config in `moonraker.conf` should be automatically added if using seploy tool.
+The config in `moonraker.conf` should be automatically added if using deploy tool.
 ``` 
 [update_manager sensor-data-release]
 type: git_repo
